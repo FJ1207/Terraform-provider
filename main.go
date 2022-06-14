@@ -20,7 +20,6 @@ func main() {
 
 	opts := &plugin.ServeOpts{
 		Debug:        debugMode,
-		ProviderAddr: "registry.terraform.io/dell/redfish",
 		ProviderFunc: demo.Provider,
 	}
 
